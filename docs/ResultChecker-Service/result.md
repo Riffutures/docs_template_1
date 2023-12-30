@@ -28,7 +28,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/cablesub/"
+url = "https://subpadi.com/api/epin/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
